@@ -30,7 +30,7 @@ import java.util.Scanner;
                 System.out.print("Chọn chức năng: ");
 
                 choice = scanner.nextInt();
-                scanner.nextLine(); // clear buffer
+                scanner.nextLine();
 
                 switch (choice) {
                     case 1:
@@ -105,26 +105,7 @@ import java.util.Scanner;
         }
 
 
-        public void xoa() {
 
-            System.out.print("Nhập  tên muốn xóa ");
-            String name = scanner.nextLine();
-
-            boolean found = false;
-            for (int i = 0; i < list.size(); i++) {
-                if (list.get(i).equalsIgnoreCase(name)) {
-                    list.remove(i);
-                    found = true;
-                    break;
-                }
-            }
-
-            if (found) {
-                System.out.println("Đã xóa thành công!");
-            } else {
-                System.out.println("Không tìm thấy họ tên cần xóa.");
-            }
-        }
     }
 
 
