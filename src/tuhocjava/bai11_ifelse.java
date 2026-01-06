@@ -1,3 +1,5 @@
+package tuhocjava;
+
 import java.util.Scanner;
 
 public class bai11_ifelse {

@@ -1,3 +1,5 @@
+package tuhocjava;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
