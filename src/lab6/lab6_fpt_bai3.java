@@ -1,4 +1,5 @@
 package lab6;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -71,10 +72,11 @@ public class lab6_fpt_bai3 {
         for (SinhVien sv : list) {
             sv.xuat();
 
-    }
+        }
 
+    }
 }
-}
+
 class SinhVien {
     private String hoTen;
     private String email;

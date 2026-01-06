@@ -7,11 +7,10 @@ public class bai11_ifelse {
         Scanner sc = new Scanner(System.in);
         System.out.println("nhập vào số điểm của bạn: ");
         float diem = sc.nextFloat();
-        System.out.println("điểm của bạn là : "+diem);
-        if (diem >=5.0){
+        System.out.println("điểm của bạn là : " + diem);
+        if (diem >= 5.0) {
             System.out.println("Kết quả đã: Đỗ");
-        }
-        else{
+        } else {
             System.out.println("Kết quả đã: Trượt");
         }
     }
