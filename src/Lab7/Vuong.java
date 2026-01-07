@@ -1,8 +1,8 @@
 package Lab7;
 
 public class Vuong extends ChuNhat {
-    public Vuong(double canh){
-        super(canh,canh);
+    public Vuong(double canh) {
+        super(canh, canh);
     }
 
     @Override

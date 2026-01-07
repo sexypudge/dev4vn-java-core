@@ -7,6 +7,7 @@ public class SanPham {
     double gia;
     String hang;
     Scanner sc = new Scanner(System.in);
+
     void nhap() {
         System.out.print("Tên sản phẩm: ");
         tenSp = sc.nextLine();
