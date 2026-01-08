@@ -51,18 +51,12 @@ public class Student extends Person {
 
     @Override
     public void display() {
-        super.display(); // In ra id, name, age từ class cha
+        super.display();
         System.out.println("Điểm: " + mark + ", Xếp loại: " + grade);
+        System.out.println("Xếp loại: "+grade);
     }
 
 
-    public static void main(String[] args) {
-        Student st = new Student();
-        System.out.println("Nhập thông tin sinh viên ");
-        st.input();
 
-        System.out.println("\n Thông tin sinh viên vừa nhập");
-        st.display();
-    }
 
 }
