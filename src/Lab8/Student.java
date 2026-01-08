@@ -57,6 +57,13 @@ public class Student extends Person {
     }
 
 
+    public static void main(String[] args) {
+        Student st = new Student();
+        System.out.println("Nhập thông tin sinh viên ");
+        st.input();
 
+        System.out.println("\n Thông tin sinh viên vừa nhập");
+        st.display();
+    }
 
 }
