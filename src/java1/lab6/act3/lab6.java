@@ -1,4 +1,4 @@
-package lab6.act3;
+package java1.lab6.act3;
 
 import java.util.Scanner;
 

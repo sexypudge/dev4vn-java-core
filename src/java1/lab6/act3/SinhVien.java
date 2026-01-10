@@ -1,4 +1,4 @@
-package lab6.act3;
+package java1.lab6.act3;
 
 public class SinhVien {
     private String hoTen;

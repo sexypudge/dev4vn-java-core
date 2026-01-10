@@ -1,4 +1,4 @@
-package lab6.act2;
+package java1.lab6.act2;
 
 import java.util.ArrayList;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package lab7.act1;
+package java1.lab7.act1;
 
 public class ChuNhat {
     protected double rong;

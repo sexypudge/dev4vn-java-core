@@ -1,4 +1,4 @@
-package lab8;
+package java1.lab8;
 
 public class Test {
     public static void main(String[] args) {

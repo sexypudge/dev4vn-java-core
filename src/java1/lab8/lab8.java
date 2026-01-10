@@ -1,4 +1,4 @@
-package lab8;
+package java1.lab8;
 
 public class lab8 {
     public static final double sum(double... x) {

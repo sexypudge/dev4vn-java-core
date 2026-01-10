@@ -1,4 +1,4 @@
-package lab7.act2_3_4;
+package java1.lab7.act2_3_4;
 
 public abstract class SinhVien {
     protected String hoTen;
